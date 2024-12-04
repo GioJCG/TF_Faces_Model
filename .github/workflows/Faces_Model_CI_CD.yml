@@ -37,7 +37,7 @@ jobs:
       run: ls -R
 
     - name: Show model directory
-      run: ls -la 1/
+      run: ls -la /1
 
     - name: Docker login
       env:
